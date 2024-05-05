@@ -16,9 +16,10 @@ def buscar_termos(termo):
     for index, row in transcricao.iterrows():
         texto = row['FRASE']
         pessoa = row['LOCUTOR']
+        tempo = row['TEMPO']
         tokens = word_tokenize(texto.lower())
         if termo.lower() in tokens:
-            resultados.append((pessoa, texto))
+            resultados.append((pessoa, texto, tempo))
     return resultados
 
 # Função para realizar análise de sentimento em uma frase
@@ -46,8 +47,8 @@ while True:
     resultados = buscar_termos(termo)
     if len(resultados) > 0:
         print(f"Resultados para o termo '{termo}':")
-        for pessoa, texto in resultados:
+        for pessoa, texto, tempo in resultados:
             sentimento = analisar_sentimento(texto)
-            print(f'{pessoa}: {texto} - Sentimento: {sentimento}')
+            print(f'{pessoa}: {tempo} - {texto} - Sentimento: {sentimento}')
     else:
         print(f"O termo '{termo}' não foi encontrado na transcrição.")
