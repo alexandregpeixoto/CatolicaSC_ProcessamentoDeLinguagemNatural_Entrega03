@@ -1,0 +1,148 @@
+LOCUTOR,TEMPO,FRASE
+Gates,00:03,My guest today is Sam Altman.
+Gates,00:05,"He, of course, is the CEO of OpenAI."
+Gates,00:08,He’s been an entrepreneur and a leader
+Gates,00:10,"in the tech industry for a long time,"
+Gates,00:13,"including running Y Combinator,"
+Gates,00:15,that did amazing things
+Gates,00:17,"like funding Reddit, Dropbox, Airbnb."
+Gates,00:20,Sam is also involved in companies
+Gates,00:23,"that could help solve climate like Helion and Oklo,"
+Gates,00:27,so a broad range of activity.
+Gates,00:29,"Today we’re going to focus mostly on AI,"
+Gates,00:32,"because it’s such an exciting thing,"
+Gates,00:35,and people are also concerned.
+Gates,00:37,"Welcome, Sam."
+Altman,00:38,Thank you so much for having me.
+Gates,00:40,"I was privileged to see your work as it evolved,"
+Gates,00:44,and I was very skeptical.
+Gates,00:48,I didn’t expect ChatGPT to get so good.
+Gates,00:54,"It blows my mind,"
+Gates,00:55,and we don’t really understand the encoding.
+Gates,01:01,"We know the numbers,"
+Gates,01:02,"we can watch it multiply,"
+Gates,01:04,but the idea of where is Shakespearean encoded?
+Gates,01:08,Do you think we’ll gain
+Gates,01:09,an understanding of the representation?
+Altman,01:13,A hundred percent.
+Altman,01:14,Trying to do this in a human brain is very hard.
+Altman,01:17,"You could say it’s a similar problem,"
+Altman,01:18,"which is there are these neurons,"
+Altman,01:19,they’re connected.
+Altman,01:21,The connections are moving
+Altman,01:23,and we’re not going to slice up your brain
+Altman,01:25,"and watch how it’s evolving,"
+Altman,01:27,but this we can perfectly x-ray.
+Altman,01:29,There has been some very good
+Altman,01:31,"work on interpretability,"
+Altman,01:32,and I think there will be more over time.
+Altman,01:35,"I think we will be able to understand these networks,"
+Altman,01:38,but our current understanding is low.
+Altman,01:42,"The little bits we do understand have,"
+Altman,01:44,"as you’d expect,"
+Altman,01:45,been very helpful in improving these things.
+Altman,01:48,"We’re all motivated to really understand them,"
+Altman,01:50,"scientific curiosity aside,"
+Altman,01:52,but the scale of these is so vast.
+Altman,01:57,"We also could say,"
+Altman,01:58,"where in your brain is Shakespeare encoded,"
+Altman,02:00,and how is that represented?
+Gates,02:01,We don’t know.
+Altman,02:02,"We don’t really know,"
+Altman,02:04,but it somehow feels even less satisfying
+Altman,02:07,to say we don’t know yet
+Altman,02:08,in these masses of numbers
+Altman,02:10,that we’re supposed to be able to
+Altman,02:12,perfectly x-ray and watch
+Altman,02:14,and do any tests we want to on.
+Gates,02:16,"I’m pretty sure, within the next five years,"
+Gates,02:19,we’ll understand it.
+Gates,02:21,"In terms of both training efficiency and accuracy,"
+Gates,02:27,that understanding would let us do
+Gates,02:30,far better than we’re able to do today.
+Altman,02:33,A hundred percent.
+Altman,02:35,You see this in a lot of the history of technology
+Altman,02:39,where someone makes an empirical discovery.
+Altman,02:40,"They have no idea what’s going on,"
+Altman,02:42,but it clearly works.
+Altman,02:44,"Then, as the scientific understanding deepens,"
+Altman,02:47,they can make it so much better.
+Gates,02:49,"Yes, in physics, biology,"
+Gates,02:52,"it’s sometimes just messing around,"
+Gates,02:54,"and it’s like, whoa –"
+Gates,02:57,how does this actually come together?
+Altman,03:01,"In our case, the guy that built GPT-1"
+Altman,03:05,"sort of did it off by himself and solved this,"
+Altman,03:08,"and it was somewhat impressive,"
+Altman,03:09,but no deep understanding
+Altman,03:11,of how it worked or why it worked.
+Altman,03:13,Then we got the scaling laws.
+Altman,03:16,We could predict how much better
+Altman,03:17,"it was going to be. That was why,"
+Altman,03:18,"when we told you we could do a demo,"
+Altman,03:20,we were pretty confident it was going to work.
+Altman,03:21,"We hadn’t trained the model,"
+Altman,03:22,but we were pretty confident.
+Altman,03:25,That has led us to a bunch of attempts
+Altman,03:28,and better and better scientific understanding
+Altman,03:30,of what’s going on.
+Altman,03:32,But it really came from a place
+Altman,03:34,of empirical results first.
+Gates,03:36,"When you look at the next two years,"
+Gates,03:38,what do you think some of
+Gates,03:39,the key milestones will be?
+Altman,03:42,Multimodality will definitely be important.
+Gates,03:44,"Which means speech in, speech out?"
+Altman,03:47,"Speech in, speech out. Images. Eventually video."
+Altman,03:50,"Clearly, people really want that."
+Altman,03:52,"We’ve launched images and audio, and it had"
+Altman,03:55,a much stronger response than we expected.
+Altman,03:57,"We’ll be able to push that much further,"
+Altman,03:59,but maybe the most important areas of progress
+Altman,04:02,will be around reasoning ability.
+Altman,04:04,"Right now, GPT-4 can reason"
+Altman,04:06,in only extremely limited ways.
+Altman,04:09,Also reliability.
+Altman,04:11,"If you ask GPT-4 most questions 10,000 times,"
+Altman,04:14,"one of those 10,000 is probably pretty good,"
+Altman,04:16,"but it doesn’t always know which one,"
+Altman,04:18,and you’d like to get the best response
+Altman,04:20,"of 10,000 each time, and so"
+Altman,04:23,that increase in reliability will be important.
+Altman,04:25,Customizability and personalization
+Altman,04:27,will also be very important.
+Altman,04:29,People want very different things out of GPT-4:
+Altman,04:33,"different styles, different sets of assumptions."
+Altman,04:36,"We’ll make all that possible,"
+Altman,04:38,and then also the ability
+Altman,04:39,to have it use your own data.
+Altman,04:41,"The ability to know about you,"
+Altman,04:42,"your email, your calendar,"
+Altman,04:44,"how you like appointments booked,"
+Altman,04:46,"connected to other outside data sources,"
+Altman,04:47,all of that.
+Altman,04:49,Those will be some of the most important
+Altman,04:50,areas of improvement.
+Gates,04:52,"In the basic algorithm right now,"
+Gates,04:54,"it’s just feed forward, multiply,"
+Gates,04:57,"and so to generate every new word,"
+Gates,05:00,it’s essentially doing the same thing.
+Gates,05:03,"I’ll be interested if you ever get to the point where,"
+Gates,05:06,"like in solving a complex math equation,"
+Gates,05:09,you might have to apply transformations
+Gates,05:12,"an arbitrary number of times,"
+Gates,05:14,that the control logic for the reasoning
+Gates,05:18,may have to be quite a bit more complex
+Gates,05:22,than just what we do today.
+Altman,05:23,"At a minimum, it seems like we need"
+Altman,05:25,some sort of adaptive compute.
+Altman,05:28,"Right now, we spend the same amount of compute"
+Altman,05:29,"on each token, a dumb one,"
+Altman,05:30,or figuring out some complicated math.
+Gates,05:33,"Yes, when we say, ""Do the Riemann hypothesis …"""
+Altman,05:35,That deserves a lot of compute.
+Gates,05:36,"It’s the same compute as saying, ""The."""
+Altman,05:38,"Right, so at a minimum,"
+Altman,05:41,we’ve got to get that to work.
+Altman,05:42,We may need much more
+Altman,05:44,sophisticated things beyond it.
