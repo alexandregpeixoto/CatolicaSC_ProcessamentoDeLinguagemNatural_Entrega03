@@ -3,7 +3,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-# Baixe os recursos necessários do NLTK
+# Recursos necessários do NLTK
 nltk.download('punkt')
 nltk.download('vader_lexicon')
 
